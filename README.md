@@ -39,11 +39,16 @@ After running the program successfully:
 
 
 
+# 🚀 [CLICK HERE TO ACCESS THE MASHUP WEB APP](https://14febassignmentkritika102316122-r2jk2pnm2xjsb8s5nncxcq.streamlit.app/)
+
+---
+
 ## Live Web Application
 
 You can access the deployed web application here:
 
-👉 https://14febassignmentkritika102316122-r2jk2pnm2xjsb8s5nncxcq.streamlit.app/
+👉 **[https://14febassignmentkritika102316122-r2jk2pnm2xjsb8s5nncxcq.streamlit.app/](https://14febassignmentkritika102316122-r2jk2pnm2xjsb8s5nncxcq.streamlit.app/)**
+
 
 
 

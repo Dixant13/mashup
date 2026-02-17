@@ -3,6 +3,18 @@
 # Assignment: Mashup Program 1
 
 import sys
+try:
+    import audioop
+except ImportError:
+    try:
+        import audioop_lts as audioop
+    except ImportError:
+        audioop = None
+
+if audioop:
+    sys.modules['audioop'] = audioop
+    sys.modules['pyaudioop'] = audioop
+
 import os
 import yt_dlp
 from pydub import AudioSegment

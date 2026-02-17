@@ -1,13 +1,15 @@
+import sys
 try:
     import audioop
 except ImportError:
-    import sys
     try:
         import audioop_lts as audioop
-        sys.modules['audioop'] = audioop
-        sys.modules['pyaudioop'] = audioop
     except ImportError:
-        pass
+        audioop = None
+
+if audioop:
+    sys.modules['audioop'] = audioop
+    sys.modules['pyaudioop'] = audioop
 
 import streamlit as st
 import os

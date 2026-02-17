@@ -10,7 +10,13 @@ from pydub import AudioSegment
 def download_videos(singer, num_videos):
     ydl_opts = {
         'format': 'bestaudio/best',
-        'outtmpl': 'downloads/%(title)s.%(ext)s'
+        'outtmpl': 'downloads/%(title)s.%(ext)s',
+        'noplaylist': True,
+        'quiet': True,
+        'no_warnings': True,
+        'nocheckcertificate': True,
+        'ignoreerrors': True,
+        'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
     }
 
     if not os.path.exists("downloads"):

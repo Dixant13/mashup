@@ -23,7 +23,7 @@ from email import encoders
 import importlib.util
 
 # Dynamic import for the mashup script since it starts with a number
-spec = importlib.util.spec_from_file_location("mashup_script", "102316122.py")
+spec = importlib.util.spec_from_file_location("mashup_script", "102316054.py")
 mashup_script = importlib.util.module_from_spec(spec)
 sys.modules["mashup_script"] = mashup_script
 spec.loader.exec_module(mashup_script)
@@ -35,8 +35,8 @@ def zip_file(output_file, zip_name):
 
 # Function to send email
 def send_email(receiver_email, attachment_path):
-    sender_email = "kkandhari_be23@thapar.edu"
-    sender_password = "besp tzpv oftu svcd"
+    sender_email = "ssharma12_be23@thapar.edu"
+    sender_password = "gsdk pdfh ppey vkf"
     
 
 

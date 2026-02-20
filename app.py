@@ -35,8 +35,12 @@ def zip_file(output_file, zip_name):
 
 # Function to send email
 def send_email(receiver_email, attachment_path):
-    sender_email = "ssharma12_be23@thapar.edu"
-    sender_password = "gsdk pdfh ppey vkf"
+    sender_email = "dsharma8_be23@thapar.edu"
+    sender_password = os.environ.get("APP_PASSWORD")
+
+    if not sender_password:
+        st.error("Email password is not set. Please set the APP_PASSWORD environment variable.")
+        return False
     
 
 
@@ -140,6 +144,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("🎵 MP3 Mashup Generator")
+st.markdown("#### 👤 Developed by: Dixant Sharma (102316022)")
 st.markdown("### Create your custom mashup and get it via email!")
 
 with st.form("mashup_form"):

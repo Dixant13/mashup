@@ -39,7 +39,7 @@ After running the program successfully:
 
 
 
-# 🚀 [CLICK HERE TO ACCESS THE MASHUP WEB APP](https://mashup-kritika.streamlit.app/)
+# 🚀 [CLICK HERE TO ACCESS THE MASHUP WEB APP](https://mashup-shivansh.streamlit.app/)
 
 ---
 
@@ -47,7 +47,7 @@ After running the program successfully:
 
 You can access the deployed web application here:
 
-👉 **[https://mashup-kritika.streamlit.app/](https://mashup-kritika.streamlit.app/)**
+👉 **[https://mashup-shivansh.streamlit.app/](https://mashup-shivansh.streamlit.app/)**
 
 
 
